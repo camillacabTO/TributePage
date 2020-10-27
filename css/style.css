@@ -1,0 +1,120 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fdf5e6;
+}
+
+#banner-div { 
+    height: 50vh;
+    background-color: #faebd7;
+}
+
+#banner-img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 10vh;
+}
+
+#description {
+    margin: 7rem 2.5rem;
+    height: 45vh;
+    background-color: white;
+    
+}
+
+#img-div {
+    width: 20%;
+    height: 100%;
+    padding: 1rem;
+    float: left;
+    overflow: auto;
+}
+
+#image {
+    margin: 1.5rem 0;
+    max-width: 100%;
+    display: block; 
+    /* display block and max-width for responsiviness  */
+}
+
+#img-caption {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1.2rem;
+}
+
+#title {
+    padding-bottom: 1rem;
+}
+
+#tribute-info {
+    width: 80%;
+    float: right;
+    padding: 2.5rem 2.5rem;
+    height: 100%;
+    font-size: 2.2rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin: auto;
+    overflow: auto;
+}
+
+#more-info {
+    line-height: 1.6;
+    background-color: white;
+    margin: 2.5rem;
+    height: 90vh;
+    overflow: auto;
+    margin-bottom: 7rem;
+}
+
+#more-info p {
+    font-size: 2.2rem;
+    text-align: justify;
+    padding: 2.5rem;
+}
+
+#more-info h2 {
+    padding: 2.5rem 0 1rem 0;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 2.5rem;
+}
+
+#more-info h3 {
+    padding: 1rem 2.5rem;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+#footer {
+    background-color:#faebd7;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+#footer p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: purple;
+}
+
+#footer a:hover {
+    color: red;
+}
