@@ -29,6 +29,8 @@ body {
     margin: 7rem 2.5rem;
     height: 45vh;
     background-color: white;
+    box-shadow: 5px 5px 20px 7px #787878;
+    border-radius: 1.5rem;
     
 }
 
@@ -73,9 +75,11 @@ body {
     line-height: 1.6;
     background-color: white;
     margin: 2.5rem;
-    height: 90vh;
+    height: fit-content;
     overflow: auto;
     margin-bottom: 7rem;
+    box-shadow: 5px 5px 20px 7px #787878;
+    border-radius: 1.5rem;
 }
 
 #more-info p {
@@ -115,6 +119,13 @@ body {
     color: purple;
 }
 
+#quote {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: center;
+    text-shadow: 3px 3px 15px #787878;
+    padding-bottom: 3rem;
+}
 #footer a:hover {
     color: red;
 }
