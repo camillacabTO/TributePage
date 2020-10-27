@@ -60,19 +60,20 @@ body {
 #tribute-info {
     width: 80%;
     float: right;
-    padding: 2.5rem 2.5rem;
-    height: 100%;
+    height: fit-content;
     font-size: 2.2rem;
     text-align: justify;
     line-height: 1.6;
     margin: auto;
-    overflow: auto;
+    padding: 2.5rem;
+    overflow: hidden;
 }
+
 
 #title {
     text-align: center;
     line-height: 1.2;
-    padding-bottom: 1.2rem;
+    padding-bottom: 3rem;
 }
 
 .more-info {
@@ -89,7 +90,7 @@ body {
 .more-info p {
     font-size: 2.2rem;
     text-align: justify;
-    padding: 2.5rem;
+    padding: 1.3rem;
 }
 
 .more-info h2 {
@@ -148,7 +149,7 @@ body {
     #tribute-info {
         width: 100%;
         float: none;
-        padding: 1.7rem;
+        padding: 1.5rem;
         font-size: 2rem;
     }
 
@@ -159,7 +160,7 @@ body {
 
     .more-info p {
         font-size: 2rem;
-        padding: 1.7rem;
+        padding: 1.5rem;
     }
     
     .more-info h2 {
