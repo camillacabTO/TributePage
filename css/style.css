@@ -13,7 +13,6 @@ body {
 }
 
 #banner-div { 
-    height: 50vh;
     background-color: #faebd7;
 }
 
@@ -22,11 +21,11 @@ body {
     margin: auto;
     max-width: 100%;
     height: auto;
-    padding: 10vh;
+    padding: 5vh;
 }
 
 #description {
-    margin: 7rem 2.5rem;
+    margin: 5rem 2.5rem;
     height: fit-content;
     background-color: white;
     box-shadow: 5px 5px 20px 7px #787878;
@@ -46,7 +45,6 @@ body {
     margin: 1.5rem 0;
     max-width: 100%;
     display: block; 
-    /* display block and max-width for responsiviness  */
 }
 
 #img-caption {
@@ -69,6 +67,12 @@ body {
     line-height: 1.6;
     margin: auto;
     overflow: auto;
+}
+
+#title {
+    text-align: center;
+    line-height: 1.2;
+    padding-bottom: 1.2rem;
 }
 
 .more-info {
@@ -111,9 +115,10 @@ body {
 
 #footer p {
     font-size: 1.8rem;
-    line-height: 1.4;
+    line-height: 1.2;
     text-align: center;
-    padding: 1.7rem;
+    padding-top: 1.2rem;
+    margin: 1rem 0;
 }
 
 #footer a {
@@ -131,3 +136,36 @@ body {
 #footer a:hover {
     color: red;
 }
+
+@media only screen and (max-width: 540px) { 
+    #img-div {
+        width: 60%;
+        margin: auto;
+        overflow: auto;
+        float:none;
+    }
+
+    #tribute-info {
+        width: 100%;
+        float: none;
+        padding: 1.7rem;
+        font-size: 2rem;
+    }
+
+    #tribute-info p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .more-info p {
+        font-size: 2rem;
+        padding: 1.7rem;
+    }
+    
+    .more-info h2 {
+        padding: 2rem 0 1rem 0;
+        line-height: 1.3;
+        font-size: 2rem;
+    }
+    
+  }
