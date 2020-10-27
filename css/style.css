@@ -105,13 +105,15 @@ body {
 
 #footer {
     background-color:#faebd7;
-    height: 10vh;
-    line-height: 10vh;
+    height: 10vh; 
+    overflow: hidden;
 }
 
 #footer p {
     font-size: 1.8rem;
+    line-height: 1.4;
     text-align: center;
+    padding: 1.7rem;
 }
 
 #footer a {
