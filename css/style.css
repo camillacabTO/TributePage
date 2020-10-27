@@ -27,16 +27,16 @@ body {
 
 #description {
     margin: 7rem 2.5rem;
-    height: 45vh;
+    height: fit-content;
     background-color: white;
     box-shadow: 5px 5px 20px 7px #787878;
     border-radius: 1.5rem;
-    
+    overflow: hidden;
 }
 
 #img-div {
     width: 20%;
-    height: 100%;
+    height: fit-content;
     padding: 1rem;
     float: left;
     overflow: auto;
